@@ -1,0 +1,15 @@
+/* Transform（變形）
+---------------------------*/
+
+/*translate()*/
+.trans01:hover {
+    background-color: #48A261;
+    transform: translate(15px, 0px);
+    transition: 0.5s;
+}
+
+.trans01 {
+    background-color: #48A261;
+    transform: translate(-15px, 0px);
+    transition: 0.5s;
+}
